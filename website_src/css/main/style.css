@@ -9,7 +9,6 @@ header::after{
 }
 .topbanner{
 	background-color: #454545;
-	float: left;
 	height: 200px;
 }
 .gInfo{
