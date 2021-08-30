@@ -1,9 +1,9 @@
 .underconstruction{ font-size : 30px; }
 .topbanner p{
-	color: #ffffff;
+	color: #00f3ff;
 }
 .nav_menu li{
-	color: #ffffff;
+	color: #00f3ff;
 }
 header::after{
 	content: '';
@@ -12,7 +12,7 @@ header::after{
 }
 .topbanner{
 	background-color: #454545;
-	height: 200px;
+	height: 150px;
 }
 .gInfo{
 	float: left;
@@ -29,12 +29,27 @@ header::after{
 
 .nav_menu li{
 	display: inline-block;
-	margin-left: 70px;
-	padding-top: 25px;
+	margin-left: 35px;
+	margin-right: 35px;
+	padding-top: 60px;
+	
+	position: relative;
 }
 
 .nav_menu li > a{
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
+	font-weight: 400px;
+}
+
+.nav_menu li > a:hover {
+	color: #ffffff
+}
+.nav_menu li > a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #00f3ff; 
 }
