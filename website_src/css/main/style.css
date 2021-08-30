@@ -2,6 +2,9 @@
 .topbanner p{
 	color: #ffffff;
 }
+.nav_menu li{
+	color: #ffffff;
+}
 header::after{
 	content: '';
 	display: table;
@@ -16,4 +19,14 @@ header::after{
 }
 .nav_menu{
 	float: right;
+}
+
+.nav_menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav_menu li{
+	display: inline-block;
 }
