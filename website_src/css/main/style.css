@@ -1,6 +1,7 @@
 .underconstruction{ font-size : 30px; }
 .topbanner{
 	background-color: #454545;
+	height: 100px;
 }
 .topbanner p{
 	color: #ffffff;
