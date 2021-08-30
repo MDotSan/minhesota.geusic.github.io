@@ -1,11 +1,17 @@
 .underconstruction{ font-size : 30px; }
+.topbanner p{
+	color: #ffffff;
+}
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
 .topbanner{
 	background-color: #454545;
+	float: left;
 	height: 200px;
 }
-.gInfo p{
-	color: #ffffff;
-}
-.nav_menu p{
-	color: #ffffff;
+.nav_menu{
+	float: right;
 }
