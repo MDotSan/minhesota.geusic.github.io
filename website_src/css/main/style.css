@@ -2,21 +2,22 @@
 .topbanner p{
 	color: #00f3ff;
 }
-.nav_menu li{
-	color: #00f3ff;
-}
+
 header::after{
 	content: '';
 	display: table;
 	clear: both;
 }
+
 .topbanner{
 	background-color: #454545;
 	height: 150px;
 }
+
 .gInfo{
 	float: left;
 }
+
 .nav_menu{
 	float: right;
 }
@@ -37,7 +38,7 @@ header::after{
 }
 
 .nav_menu li > a{
-	color: white;
+	color: #00f3ff;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 400px;
@@ -46,6 +47,7 @@ header::after{
 .nav_menu li > a:hover {
 	color: #ffffff
 }
+
 .nav_menu li > a::before {
 	content: '';
 	display: block;
