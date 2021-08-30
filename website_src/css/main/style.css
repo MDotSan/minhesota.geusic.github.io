@@ -1,1 +1,7 @@
-.underconstruction{ font-size : 50px; }
+.underconstruction{ font-size : 30px; }
+.topbanner{
+	background-color: #454545;
+}
+.topbanner p{
+	color: #ffffff;
+}
