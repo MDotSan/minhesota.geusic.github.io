@@ -30,4 +30,11 @@ header::after{
 .nav_menu li{
 	display: inline-block;
 	margin-left: 70px;
+	padding-top: 25px;
+}
+
+.nav_menu li > a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
 }
