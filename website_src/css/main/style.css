@@ -12,6 +12,9 @@ header::after{
 	float: left;
 	height: 200px;
 }
+.gInfo{
+	float: left;
+}
 .nav_menu{
 	float: right;
 }
