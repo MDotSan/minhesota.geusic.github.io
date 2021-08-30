@@ -29,4 +29,5 @@ header::after{
 
 .nav_menu li{
 	display: inline-block;
+	margin-left: 70px;
 }
