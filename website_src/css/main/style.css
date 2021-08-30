@@ -14,10 +14,17 @@ header::after {
 	background-color: #454545;
 	height: 150px;
 	margin-top: -10px;
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.gInfo {
+	float: left;
 }
 
 .nav_menu {
 	float: right;
+	position: relative;
 }
 
 .nav_menu ul {
@@ -58,4 +65,8 @@ header::after {
 
 .nav_menu a:hover::before {
 	width: 100%;
+}
+
+.main_body {
+	text-align: center;
 }
