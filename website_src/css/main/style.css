@@ -1,4 +1,15 @@
-.main_body {
-	text-align: center;
+
+#introText {
+	display: inline-block;
+	position: absolute;
+	margin-top: 0px;
 }
 
+#profilePicture {
+	padding: 10px 10px;
+}
+
+#divider1 {
+	height: 20px;
+	background-color: #333;
+}
