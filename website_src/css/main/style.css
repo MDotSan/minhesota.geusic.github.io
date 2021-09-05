@@ -64,12 +64,16 @@ h1, p, div {
 	color: #00e2d8;
 }
 
+#bottomdivider {
+	position: fixed;
+}
+
 #section1_cursor {
 	display: inline-block;
 	width: 25px;
-	height: 3.75rem;
+	height: 3.25rem;
 	background: #00e2d8;
-	margin-left: 5px;
+	margin-left: -5px;
 	border-radius; 1px;
 	animation: blinking-animation 0.7s steps(5, start) infinite;
 	-webkit-animation: blink-animation 0.7s steps(5, start) infinite;
