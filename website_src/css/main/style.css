@@ -78,7 +78,8 @@ h1, p, div {
 	color: #00e2d8;
 }
 
-.icon  i {
+.icon i{
+	font-size: 48px;
 	color: #00e2d8;
 }
 
