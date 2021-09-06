@@ -68,6 +68,20 @@ h1, p, div {
 	position: fixed;
 }
 
+.link {
+	text-decoration: none;
+	color: #00e2d8;
+}
+
+.link > p{
+	font-size: 25px;
+	color: #00e2d8;
+}
+
+.icon  i {
+	color: #00e2d8;
+}
+
 #section1_cursor {
 	display: inline-block;
 	width: 25px;
