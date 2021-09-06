@@ -65,22 +65,25 @@ h1, p, div {
 }
 
 #bottomdivider {
-	position: fixed;
+	position: static;
+}
+
+#getintouchwithme {
+	margin-top: 300px;
 }
 
 .link {
 	text-decoration: none;
-	color: #00e2d8;
-}
-
-.link > p{
-	font-size: 25px;
-	color: #00e2d8;
-}
-
-.icon i{
 	font-size: 48px;
 	color: #00e2d8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.icon img{
+	color: #00e2d8;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #section1_cursor {
