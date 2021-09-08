@@ -30,6 +30,11 @@ h1, p, div {
 	height: 40px;
 }
 
+.projectSection {
+	width: 50%;
+	height: 500px;
+	background-color: #333;
+}
 
 #aboutme_title, #aboutme_paragraph, #section1 {
 	color: white;
