@@ -1,0 +1,135 @@
+html {
+	height: 100%;
+	scroll-padding-top: 80px;
+}
+body {
+	display: grid;
+}
+
+/*caret-color remove*/
+.no-cursor-select {
+	caret-color: rgba(0,0,0,0);
+	color: white;
+}
+
+/*background image*/
+.background-image {
+	background-image: url("../img/background-image.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* Back shadow for all objects */
+.back_shadow{
+	-webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.45);
+	-moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.45);
+	box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.45);
+}
+
+.navbar {
+	text-shadow: 0px 1px 3px #00000060;
+}
+
+.bg-dark {
+	background-color: #26282bb7 !important;
+	backdrop-filter: blur(10px) saturate(125%);
+	-webkit-backdrop-filter: blur(10px) saturate(125%);           
+}
+
+/* Adding Navbar underline */
+@media (min-width: 992px) {
+
+  .nav-link.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    padding-bottom: 5px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .body_container {
+    max-width: 1140px;
+  }
+}
+
+/* Header title bar */
+.my_header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(49, 55, 70, 0.7);
+  text-align: center;
+  color: white;
+  border-radius: 6px 6px 0px 0px;
+  text-shadow: 0px 1px 4px #00000080;
+}
+
+/* body container format */
+.body_container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+}
+
+.my_text {
+	color: white !important; 
+}
+
+.my_header_blue {
+  background-color:  rgba(82, 97, 136, 0.534);
+}  
+
+/* Section card format */
+.card {
+	border-radius: 5px;
+	position: relative;
+	backdrop-filter: blur(5px);
+	/*-webkit-backdrop-filter: blur(5px);*/
+}
+
+.card_text {
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+}
+
+.card_image_container {
+	float: right;
+	padding: 5px 20px;
+}
+
+.card_image {
+	border-radius: 15px;
+}
+
+/* Section card body format */
+.card-body {
+  background-color: rgba(255, 255, 255, 0.151);
+  border-radius: 6px;
+}
+
+/* footer format */
+.footer {
+  text-shadow: 0px 1px 3px #00000060;
+  position: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 90%;
+  width: 100%;
+}
