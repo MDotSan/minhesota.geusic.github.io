@@ -14,7 +14,6 @@ body {
 /*background image*/
 .background-image {
 	background-image: url("../img/background-image-9.jpg");
-	image-rendering: crisp-edges;
 	image-rendering: -moz-crisp-edges;          /* Firefox */
 	image-rendering: -o-crisp-edges;            /* Opera */
 	image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
@@ -101,11 +100,13 @@ body {
 
 /* button format */
 .my_button {
+	border: none;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 24px;
 	width: 50%;
+	border-radius: 10px;
 	position: relative;
 	padding: 5px 10px;
 	margin-right: 5px;
@@ -117,7 +118,7 @@ body {
 /* button color */
 .my_button_blue {
 	color: white;
-	background-color:  rgba(82, 97, 136, 0.70);
+	background-color:  rgba(82, 97, 136, 1);
 }
 
 .flex-parent {
@@ -159,7 +160,7 @@ body {
 }
 
 .my_icon {
-	margin: 10px;
+	margin:10px;
 }
 
 /* footer format */
