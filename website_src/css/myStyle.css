@@ -112,7 +112,7 @@ body {
 /* button color */
 .my_button_blue {
 	color: white;
-	background-color:  rgba(82, 97, 136, 0.80);
+	background-color:  rgba(82, 97, 136, 0.70);
 }
 
 .flex-parent {
@@ -151,6 +151,10 @@ body {
 .card-body {
   background-color: rgba(255, 255, 255, 0.151);
   border-radius: 6px;
+}
+
+.my_icon {
+	margin: 10px;
 }
 
 /* footer format */
