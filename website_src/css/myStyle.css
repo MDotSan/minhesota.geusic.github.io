@@ -13,7 +13,12 @@ body {
 
 /*background image*/
 .background-image {
-	background-image: url("../img/background-image.png");
+	background-image: url("../img/background-image-9.jpg");
+	image-rendering: crisp-edges;
+	image-rendering: -moz-crisp-edges;          /* Firefox */
+	image-rendering: -o-crisp-edges;            /* Opera */
+	image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
+	-ms-interpolation-mode: nearest-neighbor;   /* IE (non-standard property) */
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -166,4 +171,10 @@ body {
   right: 0;
   top: 90%;
   width: 100%;
+}
+
+.body_container {
+    background-color: rgba(37, 39, 43, 0.4);
+    box-shadow: 0px 0px 10px 0px black;
+    backdrop-filter: blur(15px)
 }
