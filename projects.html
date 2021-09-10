@@ -33,49 +33,63 @@
 		
 		<!-- Page Content -->
 		<div class="body_container">
-			<!-- About me -->
-			<div class="my-2" id="greeting">
+			<!-- title -->
+			<div class="my-2">
 				<div class="my_header my_header_blue">
-					<h5 class="mb-0">About Me</h5>
+					<h1 class="mb-0" >Projects</h1>
 				</div>
-				<div class="card_content">
-					<div class="row">
-						<div class="card_text col-lg-8 mb-4">
-							<p class="my_text">I am a software developer, artist, gamer and a history enthusiast, based in New Jersey. 
-							<br>I graduated from Rutgers University in August of 2021 with a B.S. in Computer Science.
-							<br>I started coding when I was in middle school and I have been ever since. I have 7+ years
-							<br>(and counting) of experiences in computer science, dealing with Java, C, C#, HTML5, CSS, 
-							<br>Javascript, MySQL, and Ocaml. 
-							<br>
-							<br>I am interested all aspects relating to computer science. I love to seek out new challenges 
-							<br>because I believe every problems can be solved. Outside of work, you'll most likely find me 
-							<br>playing games, practicing my art, or working on a game prototype. 
-							<br>
-							<br>If you are interested in getting to know more about me or want me on your team, please 
-							<br>don't hesistate to contact me.
-							</p>
-						</div>
-					<div class="col-lg-4 mb-4">
-						<img class="card_image_container card_image" src="website_src/img/pfp.PNG" width="325" height="400" alt="profile picture of Minhesota Geusic" title="Minhesota Geusic" align=“middle”>
+				<!-- projects -->
+				<div class="my_projects_list">
+					<!-- 2021 projects -->
+					<button class="accordion">2021</button>
+					<div class="panel">
+					  <ul class="my_list_item">
+						<li class="my_item">
+							Simple Banking System - Java - August 2021 - <b class="in_progress">In Progress</b> 
+							[ <a> Link </a> ]
+						</li>
+						<li class="my_item">
+							Local Dead Code Elimination Pass - ILoc - May 2021 - <b class="completed">Completed</b> 
+							[ <a> Link </a> ]
+						</li>
+						<li class="my_item">
+							Chess on Android - Java - April 2021 - <b class="completed">Completed</b> 
+							[ <a> Link </a> ]
+						</li>
+						<li class="my_item">
+							Simple Compiler Front-End - ILoc - April 2021 - <b class="completed">Completed</b> 
+							[ <a> Link </a> ]
+						</li>
+						<li class="my_item">
+							Local Register Allocation - ILoc - March 2021 - <b class="completed">Completed</b> 
+							[ <a> Link </a> ]
+						</li>
+						<li class="my_item">
+							Photos Library - Java, XML - March 2021 - <b class="completed">Completed</b> 
+							[ <a> Link </a> ]
+						</li>
+						<li class="my_item">
+							Command Prompt Chess - Java - Feb 2021 - <b class="completed">Completed</b> 
+							[ <a> Link </a> ]
+						</li>
+						<li class="my_item">
+							Songlib - Java - Feb 2021 - <b class="completed">Completed</b> 
+							[ <a> Link </a> ]
+						</li>
+						
+					  </ul>
 					</div>
+					<!-- 2020 projects -->
+					<button class="accordion">2020</button>
+					<div class="panel">
+					  <p>Lorem ipsum...</p>
+					</div>
+					<!-- 2019 projects -->
+					<button class="accordion">2019</button>
+					<div class="panel">
+					  <p>Lorem ipsum...</p>
 					</div>
 				</div>
-			</div>
-			<!-- Contact and Projects Buttons -->
-			<div class="flex-parent jc-center">
-				<button class="my_button my_button_blue mb-0 no-cursor-select" type="button" onclick="window.location.href='website_src/MinhesotaGeusic_Resume.pdf'" onclick="location.href='website_src/MinhesotaGeusic_Resume.pdf'"> Resume </button>
-				<button class="my_button my_button_blue mb-0 no-cursor-select" type="button" onclick="window.location.href='projects.html'" onclick="location.href='projects.html'"> Projects </button>
-			</div>
-			<div>
-				<a id="email" href="mailto:minhesota.geusic@outlook.com">
-					<img src="website_src/img/email.PNG" width="48" height="48"/>
-				</a>
-				<a id="linkedin" href="https://linkedin.com/in/minhesota-geusic-401800217">
-					<img src="website_src/img/linkedin.png" width="48" height="48"/>
-				</a>
-				<a id="github" href="https://github.com/minhesotageusic">
-					<img src="website_src/img/github.png" width="48" height="48"/>
-				</a>
 			</div>
 		</div>
 		
@@ -91,5 +105,6 @@
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<script src="website_src/js/myJS.js"></script>
+		<script src="website_src/js/accordion.js"></script>
 	</body>
 </html>

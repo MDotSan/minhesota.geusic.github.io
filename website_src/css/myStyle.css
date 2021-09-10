@@ -71,12 +71,26 @@ body {
 .my_header {
 	padding: 0.75rem 1.25rem;
 	margin-bottom: 0;
-	background-color: rgba(49, 55, 70, 0.7);
 	text-align: center;
 	color: white;
 	border-radius: 6px 6px 0px 0px;
 	text-shadow: 0px 1px 4px #00000080;
 }
+
+.my_header_background {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 0;
+	text-align: center;
+	background-color: rgba(49, 55, 70, 0.7);
+	color: white;
+	border-radius: 6px 6px 0px 0px;
+	text-shadow: 0px 1px 4px #00000080;
+}
+
+/* header format */
+.my_header_blue_background {
+	background-color:  rgba(82, 97, 136, 0.534);
+}  
 
 /* body container format */
 .body_container {
@@ -85,18 +99,19 @@ body {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 80px;
+	margin-top: 150px;
+}
+
+.body_container_effect {
+    background-color: rgba(37, 39, 43, 0.4);
+    box-shadow: 0px 0px 10px 0px black;
+    backdrop-filter: blur(15px);
 }
 
 /* Text color */
 .my_text {
 	color: white !important; 
 }
-
-/* header format */
-.my_header_blue {
-	background-color:  rgba(82, 97, 136, 0.534);
-}  
 
 /* button format */
 .my_button {
@@ -161,12 +176,55 @@ body {
 
 .my_icon {
 	margin:10px;
+	margin-bottom: 40px;
+}
+
+/* Accordion format */
+.accordion {
+	background-color: rgba(82, 97, 136, 1);
+	text-shadow: 0px 1px 4px #00000080;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.3s;
+}
+
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.my_list_item {
+	padding: 20px;
+}
+
+.my_item {
+	padding-top: 5px;
+}
+
+.in_progress {
+	color: red;
+}
+
+.completed {
+	color: green;
 }
 
 /* footer format */
 .footer {
   text-shadow: 0px 1px 3px #00000060;
-  position: auto;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -174,8 +232,3 @@ body {
   width: 100%;
 }
 
-.body_container {
-    background-color: rgba(37, 39, 43, 0.4);
-    box-shadow: 0px 0px 10px 0px black;
-    backdrop-filter: blur(15px)
-}
