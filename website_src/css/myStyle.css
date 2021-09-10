@@ -9,7 +9,6 @@ body {
 /*caret-color remove*/
 .no-cursor-select {
 	caret-color: rgba(0,0,0,0);
-	color: white;
 }
 
 /*background image*/
@@ -66,55 +65,86 @@ body {
 
 /* Header title bar */
 .my_header {
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 0;
-  background-color: rgba(49, 55, 70, 0.7);
-  text-align: center;
-  color: white;
-  border-radius: 6px 6px 0px 0px;
-  text-shadow: 0px 1px 4px #00000080;
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(49, 55, 70, 0.7);
+	text-align: center;
+	color: white;
+	border-radius: 6px 6px 0px 0px;
+	text-shadow: 0px 1px 4px #00000080;
 }
 
 /* body container format */
 .body_container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 80px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
 }
 
+/* Text color */
 .my_text {
 	color: white !important; 
 }
 
+/* header format */
 .my_header_blue {
-  background-color:  rgba(82, 97, 136, 0.534);
+	background-color:  rgba(82, 97, 136, 0.534);
 }  
 
-/* Section card format */
-.card {
-	border-radius: 5px;
+/* button format */
+.my_button {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	width: 50%;
 	position: relative;
-	backdrop-filter: blur(5px);
-	/*-webkit-backdrop-filter: blur(5px);*/
+	padding: 5px 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
+/* button color */
+.my_button_blue {
+	color: white;
+	background-color:  rgba(82, 97, 136, 0.80);
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+/* text in card format */
 .card_text {
 	padding-top: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
-	display: inline-block;
 }
 
+/* card image format */
 .card_image_container {
-	float: right;
-	padding: 5px 20px;
+	padding: 5px 10px !important;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* card image format */
 .card_image {
 	border-radius: 15px;
+}
+
+/* card content format */
+.card_content {
 }
 
 /* Section card body format */
