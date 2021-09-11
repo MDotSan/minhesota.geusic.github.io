@@ -199,9 +199,10 @@ body {
 
 .panel {
   padding: 0 18px;
-  background-color: white;
   max-height: 0;
   overflow: hidden;
+  background-color: rgba(37, 39, 43, 0.4);
+  backdrop-filter: blur(15px);
   transition: max-height 0.2s ease-out;
 }
 
@@ -211,6 +212,7 @@ body {
 
 .my_item {
 	padding-top: 5px;
+	color: white;
 }
 
 .in_progress {
