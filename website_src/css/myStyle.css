@@ -13,7 +13,7 @@ body {
 
 /*background image*/
 .background-image {
-	background-image: url("../img/background-image-9.jpg");
+	background-image: url("../img/background-image.jpg");
 	image-rendering: -moz-crisp-edges;          /* Firefox */
 	image-rendering: -o-crisp-edges;            /* Opera */
 	image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
@@ -37,8 +37,8 @@ body {
 
 .bg-dark {
 	background-color: #26282bb7 !important;
-	backdrop-filter: blur(10px) saturate(125%);
-	-webkit-backdrop-filter: blur(10px) saturate(125%);           
+	backdrop-filter: blur(2px) saturate(125%);
+	-webkit-backdrop-filter: blur(2px) saturate(125%);           
 }
 
 /* Adding Navbar underline */
@@ -105,7 +105,7 @@ body {
 .body_container_effect {
     background-color: rgba(37, 39, 43, 0.4);
     box-shadow: 0px 0px 10px 0px black;
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(2px);
 }
 
 /* Text color */
@@ -202,7 +202,7 @@ body {
   max-height: 0;
   overflow: hidden;
   background-color: rgba(37, 39, 43, 0.4);
-  backdrop-filter: blur(25px);
+  backdrop-filter: blur(2px);
   transition: max-height 0.2s ease-out;
 }
 
