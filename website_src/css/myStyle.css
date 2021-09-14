@@ -99,7 +99,8 @@ body {
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 150px;
+	margin-top: 90px;
+	margin-bottom: 30px;
 }
 
 .body_container_effect {
@@ -234,7 +235,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  top: 90%;
+  top: 0px;
   width: 100%;
 }
 
